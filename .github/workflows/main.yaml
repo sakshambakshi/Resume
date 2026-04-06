@@ -23,5 +23,5 @@ jobs:
         id: upload-workflow-tab
         uses: actions/upload-artifact@v4
         with:
-          name: output
+          name: Saksham_Resume.pdf
           path: Saksham_Resume.pdf
