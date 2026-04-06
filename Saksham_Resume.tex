@@ -1,0 +1,101 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.75in,right=0.75in,top=0.75in,bottom=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% Formatting hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+% Formatting sections
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.5ex}{1ex}
+
+\begin{document}
+\pagestyle{empty}
+
+% Header
+\begin{center}
+    {\Huge \textbf{Saksham Bakshi}} \\[0.5ex]
+    Delhi, India \textbar{} +918810649639 \textbar{} \href{mailto:jobssakshambakshi@gmail.com}{jobssakshambakshi@gmail.com} \textbar{} \href{https://github.com/sakshambakshi}{github.com/sakshambakshi}
+\end{center}
+
+% Professional Summary
+\section*{Professional Summary}
+Results-driven Backend Developer with 6.5+ years of experience designing, developing, and maintaining scalable backend systems, REST APIs, and real-time services. Proven track record of optimizing API performance, architecting AWS cloud solutions, implementing security best practices, and managing database schemas and migrations. Experienced in writing clean, maintainable, and well-documented code while collaborating cross-functionally with frontend developers, product managers, and stakeholders.
+
+% Skills
+\section*{Skills}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt]
+    \item \textbf{Backend Development:} Node.js, Express.js, Fastify.js, REST APIs, GraphQL, WebSockets
+    \item \textbf{Databases:} MongoDB
+    \item \textbf{Cloud \& DevOps:} AWS (S3, Lambda, API Gateway, EC2, SNS), GCP, GitHub Actions, CI/CD pipelines
+    \item \textbf{Security \& Auth:} Okta SSO, JWT, Authentication \& Authorization, Data Protection Best Practices
+    \item \textbf{Testing \& Tools:} Cypress.js (E2E Testing), JMeter (Load Testing), Electron.js
+    \item \textbf{Frontend:} JavaScript, TypeScript, React.js, Next.js, Vue.js, Redux, Quasar.js
+\end{itemize}
+
+% Professional Experience
+\section*{Professional Experience}
+
+\noindent
+\textbf{Aristocrat} \hfill \textbf{Oct 2023 -- Aug 2025} \\
+\textit{Senior Engineer}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt]
+    \item Developed and optimized highly scalable mobile slot games using TypeScript and proprietary frameworks, contributing to approximately \$4M in generated revenue.
+    \item Led the design and implementation of memory profiling and benchmarking initiatives by developing an evaluation tool in Electron.js and React.js, successfully establishing guidelines that reduced overall game memory consumption.
+    \item Optimized Jackpot server response times and automated manual workflows by developing a centralized React.js portal for game award mathematics configurations and a backend application in Fastify.
+    \item Designed and implemented automated CI/CD pipelines using GitHub Actions to seamlessly deploy game artifacts onto Google Cloud Platform (GCP) servers, and developed an admin portal (React.js, Node.js) integrated with \textbf{Okta SSO} for authentication and authorization, to monitor artifact history and deployment timelines.
+\end{itemize}
+
+\vspace{1ex}
+\noindent
+\textbf{Chetu, Noida} \hfill \textbf{Nov 2021 -- Sep 2023} \\
+\textit{Senior Team Member}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt]
+    \item Collaborated with frontend developers and product managers to restructure a sports betting application in Vue.js; implemented WebSockets for real-time updates, wrote a custom Vuex plugin for state persistence, debugged and resolved critical performance issues, and migrated the backend from PHP Laravel to a Node.js Express framework.
+    \item Designed and implemented dynamic CMS prototypes for real estate clients leveraging Next.js and Nuxt.js to deliver customizable page structures and content across multiple SPA frameworks including Quasar, Nuxt.js, and Next.js.
+    \item Built multiple Proof of Concepts (POCs) featuring dynamic component imports, customizable layout themes, and i18n localization for multi-currency support.
+    \item Architected an automated camera recording archiving service for a warehouse organization utilizing Node.js and AWS serverless architecture (S3, Lambda, API Gateway), ensuring high availability and scalability.
+    \item Successfully migrated a job application's full-stack Next.js data layer from REST APIs to GraphQL utilizing Apollo Client.
+    \item Led the frontend development of a high-traffic job listing platform utilizing React.js and TanStack.
+    \item Authored and maintained comprehensive end-to-end (E2E) automated test suites using Cypress.js for a travel management application.
+\end{itemize}
+
+\vspace{1ex}
+\noindent
+\textbf{Algoji} \hfill \textbf{Dec 2020 -- Nov 2021} \\
+\textit{Web Developer (Remote)}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt]
+    \item Drastically optimized Fastify.js API performance, increasing throughput by 340\% (from 250 to 1,100 requests per second) as validated by JMeter load testing.
+    \item Led the end-to-end development of secure escrow services using a Quasar.js frontend and an Express.js/MongoDB backend, \textbf{designing database schemas and managing queries}, deployed across AWS EC2, S3, and SNS.
+    \item Developed a comprehensive internal analytics and control management dashboard utilizing React.js and Node.js.
+    \item Architected and developed dynamic payment integration and user portals accommodating multiple brokers using .NET, Vue 3, and React.js.
+    \item Built a custom Node.js URL shortener with integrated QR code generation to streamline sales team operations, reducing URL management time by 40\%.
+    \item Implemented Node.js WebSockets to stream low-latency, real-time stock price fluctuations to algorithmic trading modules.
+    \item Developed a Chrome extension to scrape real-time stock pricing data for algorithmic trading clients.
+\end{itemize}
+
+\vspace{1ex}
+\noindent
+\textbf{K2M Solution \textbar{} Delhi, India} \hfill \textbf{Feb 2019 -- Nov 2020} \\
+\textit{Web Developer}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt]
+    \item Developed a vanilla JavaScript e-commerce platform integrated with Google Maps, incorporating custom web scrapers to populate staging environments with real-world product data.
+    \item Led the architecture and development of a multi-vertical CRM system for a travel management agency, \textbf{designing database schemas and managing migrations} to unify client and sales-team operations.
+    \item Delivered multiple client websites built on React.js and Node.js, featuring seamless Razorpay payment gateway integrations.
+    \item Developed a Proof of Concept (POC) web scraping application using Puppeteer (Node.js) to aggregate credit card offers and deliver personalized optimization notifications to users.
+\end{itemize}
+
+% Education
+\section*{Education}
+\noindent
+\textbf{Ambedkar Institute of Technology} \hfill \textbf{2016 -- 2019} \\
+\textit{Diploma in Computer Engineering}
+
+\end{document}
